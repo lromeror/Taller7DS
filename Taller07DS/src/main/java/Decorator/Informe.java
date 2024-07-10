@@ -8,6 +8,10 @@ package Decorator;
  *
  * @author CltControl
  */
-public interface Informe {
-    void mostrar();
+public class Informe implements InformeM {
+
+    @Override
+    public void mostrar() {
+        System.out.println("Reporte basico");
+    }
 }

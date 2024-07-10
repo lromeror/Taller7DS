@@ -9,7 +9,7 @@ package Decorator;
  * @author CltControl
  */
 public class EstiloInforme extends InformeDecorator {
-    public EstiloInforme(Informe informe) {
+    public EstiloInforme(InformeM informe) {
         super(informe);
     }
 

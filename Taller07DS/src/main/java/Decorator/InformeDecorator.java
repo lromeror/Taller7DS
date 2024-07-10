@@ -8,10 +8,10 @@ package Decorator;
  *
  * @author CltControl
  */
-public abstract class InformeDecorator implements Informe{
-    protected Informe informe;
+public abstract class InformeDecorator implements InformeM{
+    protected InformeM informe;
 
-    public InformeDecorator(Informe informe) {
+    public InformeDecorator(InformeM informe) {
         this.informe=informe;
     }
 
