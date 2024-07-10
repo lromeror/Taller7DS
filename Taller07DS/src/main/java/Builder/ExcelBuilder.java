@@ -19,10 +19,6 @@ public class ExcelBuilder extends InformeBuilder {
        //Logica para definir Contenido
     }
 
-    @Override
-    public void definirEstilo() {
-        //Logica para definir Estilo
-    }
 
     @Override
     public void definirSeccion() {

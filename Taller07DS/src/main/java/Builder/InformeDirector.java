@@ -17,7 +17,6 @@ public class InformeDirector {
     public void construirInforme() {
         builder.definirNombre();
         builder.definirContenido();
-        builder.definirEstilo();
         builder.definirSeccion();
     }
     public Informe getInforme(){
