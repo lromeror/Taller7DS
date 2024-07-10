@@ -17,7 +17,7 @@ public class WhatsAppAdapter implements Notificacion {
     
     @Override
     public void enviar(String message) {
-        adaptee.sendMessage(message);
+        adaptee.sendNotification(message);
     }
     
 }
