@@ -9,14 +9,14 @@ package Adapter;
  * @author CltControl
  */
 public class TelegramAdapter implements Notificacion {
-    private TelegramService telegramService; 
+    private TelegramService adaptee; 
 
     public TelegramAdapter(TelegramService telegramService) {
-        this.telegramService = telegramService;
+        this.adaptee = telegramService;
     }
     
     @Override
     public void enviar(String message) {
-        telegramService.sendMessage(message);
+        adaptee.sendNotification(message);
     }
 }

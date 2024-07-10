@@ -4,10 +4,14 @@
  */
 package Adapter;
 
+import Decorator.Informe;
+
 /**
  *
  * @author CltControl
  */
 public class WhatsAppService {
-    
+    public void sendNotification(String message) {
+        System.out.println("Enviando WhatsApp: "+message);
+    }
 }

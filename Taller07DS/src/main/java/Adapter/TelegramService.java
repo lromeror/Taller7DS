@@ -9,5 +9,7 @@ package Adapter;
  * @author CltControl
  */
 public class TelegramService {
-    
+    public void sendNotification(String message) {
+        System.out.println("Enviando Telegram: "+message);
+    }
 }

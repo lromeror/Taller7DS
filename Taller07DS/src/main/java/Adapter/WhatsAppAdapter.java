@@ -9,15 +9,15 @@ package Adapter;
  * @author CltControl
  */
 public class WhatsAppAdapter implements Notificacion {
-    private WhatsAppService whatsAppService; 
+    private WhatsAppService adaptee; 
 
     public WhatsAppAdapter(WhatsAppService whatsAppService) {
-        this.whatsAppService = whatsAppService;
+        this.adaptee = whatsAppService;
     }
     
     @Override
     public void enviar(String message) {
-        whatsAppService.sendMessage(message);
+        adaptee.sendMessage(message);
     }
     
 }
